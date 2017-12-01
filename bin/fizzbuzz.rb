@@ -5,6 +5,9 @@
 		printf( "Fizz\n")
 	elsif i%5 == 0 then
 		printf( "Buzz\n")
+	//7の倍数のときgitと言う
+	elsif i%7 == 0 then
+		printf("git")
 	else
 		printf("%d\n", i)
 	end
